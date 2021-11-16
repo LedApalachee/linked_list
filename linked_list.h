@@ -19,7 +19,7 @@ typedef struct
 } linked_list;
 
 
-// when getting an element from the list remember to cast the returning void pointer to a pointer of your data type
+// when you get an element from the list remember to cast the returning void pointer to a pointer of your data type
 // i recomend you wrap it in a macro like "#define _llist_get(llist, index, type) ((*type)llist_get(llist, index))"  ("llist" is a pointer)
 
 
